@@ -1,16 +1,26 @@
-## Hi there 👋
+# Hi, I'm Krishna
 
-<!--
-**Krishna-Mehta-135/Krishna-Mehta-135** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a full-stack developer focused on **backend engineering** and **DevOps**.  
+I like building systems that stay clean, scalable, and predictable.  
+If something interests me, I learn it, build it, and ship it.
 
-Here are some ideas to get you started:
+I value clarity over complexity, fast feedback over theory, and long-term consistency over shortcuts. Most of my work revolves around backend systems, frontend when needed, DevOps fundamentals, and constant self-driven learning.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### What I do
+- Design and maintain backend APIs and services  
+- Work with Node.js, Express, MongoDB, TypeScript  
+- Use React + Tailwind for clean, minimal UIs  
+- Build and deploy with Docker, CI/CD, Linux  
+- Write tools and systems in Go and Rust  
+- Contribute to open-source and large codebases  
+
+### What I’m into
+Backend architecture, distributed systems, DevOps, automation, and programming languages (Go, Rust, TypeScript, C++).  
+I read a lot—tech, philosophy, self-improvement, systems thinking.  
+I care about clean UI, clean code, and clean structure.  
+Also into anime, gym, and building small things for fun.
+
+### A bit about me
+I think best on a blank canvas—so I built **Canvas.io**.  
+I like my coffee **black**.  
+I build fast, iterate often, and keep learning new tools, languages, and ideas.
