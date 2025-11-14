@@ -15,12 +15,12 @@ I value clarity over complexity, fast feedback over theory, and long-term consis
 - Contribute to open-source and large codebases  
 
 ### What I’m into
-Backend architecture, distributed systems, DevOps, automation, and programming languages (Go, Rust, TypeScript, C++).  
-I read a lot—tech, philosophy, self-improvement, systems thinking.  
-I care about clean UI, clean code, and clean structure.  
-Also into anime, gym, and building small things for fun.
+- Backend architecture, distributed systems, DevOps, automation, and programming languages (Go, Rust, TypeScript, C++).  
+- I read a lot—tech, philosophy, self-improvement, systems thinking.  
+- I care about clean UI, clean code, and clean structure.  
+- Also into anime, gym, and building small things for fun.
 
 ### A bit about me
-I think best on a blank canvas—so I built **Canvas.io**.  
-I like my coffee **black**.  
-I build fast, iterate often, and keep learning new tools, languages, and ideas.
+- I think best on a blank canvas—so I built **Canvas.io**.  
+- I like my coffee **black**.  
+- I build fast, iterate often, and keep learning new tools, languages, and ideas.
