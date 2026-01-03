@@ -4,7 +4,7 @@ I'm a full-stack developer focused on **backend engineering** and **DevOps**.
 I like building systems that stay clean, scalable, and predictable.  
 If something interests me, I learn it, build it, and ship it.
 
-I value clarity over complexity, fast feedback over theory, and long-term consistency over shortcuts. Most of my work revolves around backend systems, frontend when needed, DevOps fundamentals, and constant self-driven learning.
+I value clarity over complexity, fast feedback over theory, and long-term consistency over shortcuts. Most of my work revolves around backend systems, frontend, DevOps, and constant self-driven learning.
 
 ### What I do
 - Design and maintain backend APIs and services  
