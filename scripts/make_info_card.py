@@ -10,7 +10,7 @@ LABEL_COLOR = "#39d353"
 TEXT_COLOR = "#c9d1d9"
 DIM_COLOR = "#8b949e"
 STAGGER = 0.15
-DUR = 0.5
+CYCLE = 8.0  # full loop per line: fade in, hold, fade out, repeat
 STATIC = os.environ.get("STATIC") == "1"
 
 USER_HOST = "krishna@github"
@@ -90,10 +90,12 @@ def build():
 
     if not STATIC:
         parts.append("<style>")
-        parts.append(".ln{opacity:0;animation:fadein %.2fs ease-out forwards;}" % DUR)
+        parts.append(f".ln{{opacity:0;animation:fadein {CYCLE}s ease-in-out infinite;}}")
         parts.append(
-            "@keyframes fadein{from{opacity:0;transform:translateX(-10px);}"
-            "to{opacity:1;transform:translateX(0);}}"
+            "@keyframes fadein{0%{opacity:0;transform:translateX(-10px);}"
+            "6%{opacity:1;transform:translateX(0);}"
+            "88%{opacity:1;transform:translateX(0);}"
+            "100%{opacity:0;transform:translateX(-10px);}}"
         )
         for i, d in enumerate(delays):
             parts.append(f".d{i}{{animation-delay:{d:.2f}s;}}")

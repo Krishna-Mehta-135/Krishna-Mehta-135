@@ -12,7 +12,7 @@ LEFT_PAD = 30
 TOP_PAD = 24
 BOTTOM_PAD = 46
 STAGGER = 0.012
-DUR = 0.35
+CYCLE = 10.0  # full loop per box: pop in, hold, fade out, repeat
 
 MONTH_NAMES = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
@@ -69,10 +69,12 @@ def render(data, out_path="contrib-heatmap.svg"):
     parts.append(f'<rect width="100%" height="100%" fill="{BG}"/>')
 
     parts.append("<style>")
-    parts.append(".box{opacity:0;animation:pop %.2fs ease-out forwards;}" % DUR)
+    parts.append(f".box{{opacity:0;animation:pop {CYCLE}s ease-in-out infinite;}}")
     parts.append(
-        "@keyframes pop{from{opacity:0;transform:translate(-4px,-4px);}"
-        "to{opacity:1;transform:translate(0,0);}}"
+        "@keyframes pop{0%{opacity:0;transform:translate(-4px,-4px);}"
+        "4%{opacity:1;transform:translate(0,0);}"
+        "90%{opacity:1;transform:translate(0,0);}"
+        "100%{opacity:0;transform:translate(-4px,-4px);}}"
     )
     idx = 0
     for w in range(n_weeks):

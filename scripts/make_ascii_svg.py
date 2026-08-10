@@ -9,7 +9,7 @@ CHAR_H = 11
 FILL = "#8b949e"
 BG = "#0d1117"
 STAGGER = 0.028  # seconds between row starts
-ROW_DUR = 0.12
+CYCLE = 6.0  # full loop duration per row: wipe in, hold, wipe out, repeat
 
 
 def brightness_to_char(v: float) -> str:
@@ -47,26 +47,17 @@ def render_svg(grid, out_path: str):
     )
     parts.append(f'<rect width="100%" height="100%" fill="{BG}"/>')
     parts.append("<style>")
+    parts.append(f".row{{font-size:{CHAR_H}px;fill:{FILL};white-space:pre;}}")
     parts.append(
-        f".row{{font-size:{CHAR_H}px;fill:{FILL};white-space:pre;}}"
+        "@keyframes wiperow{0%{clip-path:inset(0 100% 0 0);}6%{clip-path:inset(0 0 0 0);}"
+        "88%{clip-path:inset(0 0 0 0);}100%{clip-path:inset(0 100% 0 0);}}"
     )
     for r in range(ROWS):
         start = r * STAGGER
         parts.append(
-            f".r{r}{{clip-path:url(#clip{r});animation:wipe{r} {ROW_DUR}s steps(30) {start:.3f}s both;}}"
-        )
-        parts.append(
-            f"@keyframes wipe{r}{{from{{clip-path:inset(0 100% 0 0);}}to{{clip-path:inset(0 0 0 0);}}}}"
+            f".r{r}{{animation:wiperow {CYCLE}s steps(30) {start:.3f}s infinite;}}"
         )
     parts.append("</style>")
-
-    parts.append("<defs>")
-    for r in range(ROWS):
-        y = r * CHAR_H
-        parts.append(
-            f'<clipPath id="clip{r}"><rect x="0" y="{y:.1f}" width="{width:.0f}" height="{CHAR_H}"/></clipPath>'
-        )
-    parts.append("</defs>")
 
     for r, row in enumerate(grid):
         line = "".join(escape(ch) for ch in row)
