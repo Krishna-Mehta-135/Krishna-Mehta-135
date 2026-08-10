@@ -2,168 +2,61 @@
 <rect width="100%" height="100%" fill="#0d1117"/>
 <style>
 .row{font-size:11px;fill:#8b949e;white-space:pre;}
-.r0{clip-path:url(#clip0);animation:wipe0 0.12s steps(30) 0.000s both;}
-@keyframes wipe0{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r1{clip-path:url(#clip1);animation:wipe1 0.12s steps(30) 0.028s both;}
-@keyframes wipe1{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r2{clip-path:url(#clip2);animation:wipe2 0.12s steps(30) 0.056s both;}
-@keyframes wipe2{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r3{clip-path:url(#clip3);animation:wipe3 0.12s steps(30) 0.084s both;}
-@keyframes wipe3{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r4{clip-path:url(#clip4);animation:wipe4 0.12s steps(30) 0.112s both;}
-@keyframes wipe4{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r5{clip-path:url(#clip5);animation:wipe5 0.12s steps(30) 0.140s both;}
-@keyframes wipe5{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r6{clip-path:url(#clip6);animation:wipe6 0.12s steps(30) 0.168s both;}
-@keyframes wipe6{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r7{clip-path:url(#clip7);animation:wipe7 0.12s steps(30) 0.196s both;}
-@keyframes wipe7{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r8{clip-path:url(#clip8);animation:wipe8 0.12s steps(30) 0.224s both;}
-@keyframes wipe8{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r9{clip-path:url(#clip9);animation:wipe9 0.12s steps(30) 0.252s both;}
-@keyframes wipe9{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r10{clip-path:url(#clip10);animation:wipe10 0.12s steps(30) 0.280s both;}
-@keyframes wipe10{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r11{clip-path:url(#clip11);animation:wipe11 0.12s steps(30) 0.308s both;}
-@keyframes wipe11{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r12{clip-path:url(#clip12);animation:wipe12 0.12s steps(30) 0.336s both;}
-@keyframes wipe12{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r13{clip-path:url(#clip13);animation:wipe13 0.12s steps(30) 0.364s both;}
-@keyframes wipe13{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r14{clip-path:url(#clip14);animation:wipe14 0.12s steps(30) 0.392s both;}
-@keyframes wipe14{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r15{clip-path:url(#clip15);animation:wipe15 0.12s steps(30) 0.420s both;}
-@keyframes wipe15{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r16{clip-path:url(#clip16);animation:wipe16 0.12s steps(30) 0.448s both;}
-@keyframes wipe16{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r17{clip-path:url(#clip17);animation:wipe17 0.12s steps(30) 0.476s both;}
-@keyframes wipe17{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r18{clip-path:url(#clip18);animation:wipe18 0.12s steps(30) 0.504s both;}
-@keyframes wipe18{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r19{clip-path:url(#clip19);animation:wipe19 0.12s steps(30) 0.532s both;}
-@keyframes wipe19{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r20{clip-path:url(#clip20);animation:wipe20 0.12s steps(30) 0.560s both;}
-@keyframes wipe20{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r21{clip-path:url(#clip21);animation:wipe21 0.12s steps(30) 0.588s both;}
-@keyframes wipe21{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r22{clip-path:url(#clip22);animation:wipe22 0.12s steps(30) 0.616s both;}
-@keyframes wipe22{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r23{clip-path:url(#clip23);animation:wipe23 0.12s steps(30) 0.644s both;}
-@keyframes wipe23{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r24{clip-path:url(#clip24);animation:wipe24 0.12s steps(30) 0.672s both;}
-@keyframes wipe24{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r25{clip-path:url(#clip25);animation:wipe25 0.12s steps(30) 0.700s both;}
-@keyframes wipe25{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r26{clip-path:url(#clip26);animation:wipe26 0.12s steps(30) 0.728s both;}
-@keyframes wipe26{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r27{clip-path:url(#clip27);animation:wipe27 0.12s steps(30) 0.756s both;}
-@keyframes wipe27{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r28{clip-path:url(#clip28);animation:wipe28 0.12s steps(30) 0.784s both;}
-@keyframes wipe28{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r29{clip-path:url(#clip29);animation:wipe29 0.12s steps(30) 0.812s both;}
-@keyframes wipe29{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r30{clip-path:url(#clip30);animation:wipe30 0.12s steps(30) 0.840s both;}
-@keyframes wipe30{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r31{clip-path:url(#clip31);animation:wipe31 0.12s steps(30) 0.868s both;}
-@keyframes wipe31{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r32{clip-path:url(#clip32);animation:wipe32 0.12s steps(30) 0.896s both;}
-@keyframes wipe32{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r33{clip-path:url(#clip33);animation:wipe33 0.12s steps(30) 0.924s both;}
-@keyframes wipe33{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r34{clip-path:url(#clip34);animation:wipe34 0.12s steps(30) 0.952s both;}
-@keyframes wipe34{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r35{clip-path:url(#clip35);animation:wipe35 0.12s steps(30) 0.980s both;}
-@keyframes wipe35{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r36{clip-path:url(#clip36);animation:wipe36 0.12s steps(30) 1.008s both;}
-@keyframes wipe36{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r37{clip-path:url(#clip37);animation:wipe37 0.12s steps(30) 1.036s both;}
-@keyframes wipe37{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r38{clip-path:url(#clip38);animation:wipe38 0.12s steps(30) 1.064s both;}
-@keyframes wipe38{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r39{clip-path:url(#clip39);animation:wipe39 0.12s steps(30) 1.092s both;}
-@keyframes wipe39{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r40{clip-path:url(#clip40);animation:wipe40 0.12s steps(30) 1.120s both;}
-@keyframes wipe40{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r41{clip-path:url(#clip41);animation:wipe41 0.12s steps(30) 1.148s both;}
-@keyframes wipe41{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r42{clip-path:url(#clip42);animation:wipe42 0.12s steps(30) 1.176s both;}
-@keyframes wipe42{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r43{clip-path:url(#clip43);animation:wipe43 0.12s steps(30) 1.204s both;}
-@keyframes wipe43{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r44{clip-path:url(#clip44);animation:wipe44 0.12s steps(30) 1.232s both;}
-@keyframes wipe44{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r45{clip-path:url(#clip45);animation:wipe45 0.12s steps(30) 1.260s both;}
-@keyframes wipe45{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r46{clip-path:url(#clip46);animation:wipe46 0.12s steps(30) 1.288s both;}
-@keyframes wipe46{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r47{clip-path:url(#clip47);animation:wipe47 0.12s steps(30) 1.316s both;}
-@keyframes wipe47{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r48{clip-path:url(#clip48);animation:wipe48 0.12s steps(30) 1.344s both;}
-@keyframes wipe48{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r49{clip-path:url(#clip49);animation:wipe49 0.12s steps(30) 1.372s both;}
-@keyframes wipe49{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r50{clip-path:url(#clip50);animation:wipe50 0.12s steps(30) 1.400s both;}
-@keyframes wipe50{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r51{clip-path:url(#clip51);animation:wipe51 0.12s steps(30) 1.428s both;}
-@keyframes wipe51{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
-.r52{clip-path:url(#clip52);animation:wipe52 0.12s steps(30) 1.456s both;}
-@keyframes wipe52{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0 0 0);}}
+@keyframes wiperow{0%{clip-path:inset(0 100% 0 0);}6%{clip-path:inset(0 0 0 0);}88%{clip-path:inset(0 0 0 0);}100%{clip-path:inset(0 100% 0 0);}}
+.r0{animation:wiperow 6.0s steps(30) 0.000s infinite;}
+.r1{animation:wiperow 6.0s steps(30) 0.028s infinite;}
+.r2{animation:wiperow 6.0s steps(30) 0.056s infinite;}
+.r3{animation:wiperow 6.0s steps(30) 0.084s infinite;}
+.r4{animation:wiperow 6.0s steps(30) 0.112s infinite;}
+.r5{animation:wiperow 6.0s steps(30) 0.140s infinite;}
+.r6{animation:wiperow 6.0s steps(30) 0.168s infinite;}
+.r7{animation:wiperow 6.0s steps(30) 0.196s infinite;}
+.r8{animation:wiperow 6.0s steps(30) 0.224s infinite;}
+.r9{animation:wiperow 6.0s steps(30) 0.252s infinite;}
+.r10{animation:wiperow 6.0s steps(30) 0.280s infinite;}
+.r11{animation:wiperow 6.0s steps(30) 0.308s infinite;}
+.r12{animation:wiperow 6.0s steps(30) 0.336s infinite;}
+.r13{animation:wiperow 6.0s steps(30) 0.364s infinite;}
+.r14{animation:wiperow 6.0s steps(30) 0.392s infinite;}
+.r15{animation:wiperow 6.0s steps(30) 0.420s infinite;}
+.r16{animation:wiperow 6.0s steps(30) 0.448s infinite;}
+.r17{animation:wiperow 6.0s steps(30) 0.476s infinite;}
+.r18{animation:wiperow 6.0s steps(30) 0.504s infinite;}
+.r19{animation:wiperow 6.0s steps(30) 0.532s infinite;}
+.r20{animation:wiperow 6.0s steps(30) 0.560s infinite;}
+.r21{animation:wiperow 6.0s steps(30) 0.588s infinite;}
+.r22{animation:wiperow 6.0s steps(30) 0.616s infinite;}
+.r23{animation:wiperow 6.0s steps(30) 0.644s infinite;}
+.r24{animation:wiperow 6.0s steps(30) 0.672s infinite;}
+.r25{animation:wiperow 6.0s steps(30) 0.700s infinite;}
+.r26{animation:wiperow 6.0s steps(30) 0.728s infinite;}
+.r27{animation:wiperow 6.0s steps(30) 0.756s infinite;}
+.r28{animation:wiperow 6.0s steps(30) 0.784s infinite;}
+.r29{animation:wiperow 6.0s steps(30) 0.812s infinite;}
+.r30{animation:wiperow 6.0s steps(30) 0.840s infinite;}
+.r31{animation:wiperow 6.0s steps(30) 0.868s infinite;}
+.r32{animation:wiperow 6.0s steps(30) 0.896s infinite;}
+.r33{animation:wiperow 6.0s steps(30) 0.924s infinite;}
+.r34{animation:wiperow 6.0s steps(30) 0.952s infinite;}
+.r35{animation:wiperow 6.0s steps(30) 0.980s infinite;}
+.r36{animation:wiperow 6.0s steps(30) 1.008s infinite;}
+.r37{animation:wiperow 6.0s steps(30) 1.036s infinite;}
+.r38{animation:wiperow 6.0s steps(30) 1.064s infinite;}
+.r39{animation:wiperow 6.0s steps(30) 1.092s infinite;}
+.r40{animation:wiperow 6.0s steps(30) 1.120s infinite;}
+.r41{animation:wiperow 6.0s steps(30) 1.148s infinite;}
+.r42{animation:wiperow 6.0s steps(30) 1.176s infinite;}
+.r43{animation:wiperow 6.0s steps(30) 1.204s infinite;}
+.r44{animation:wiperow 6.0s steps(30) 1.232s infinite;}
+.r45{animation:wiperow 6.0s steps(30) 1.260s infinite;}
+.r46{animation:wiperow 6.0s steps(30) 1.288s infinite;}
+.r47{animation:wiperow 6.0s steps(30) 1.316s infinite;}
+.r48{animation:wiperow 6.0s steps(30) 1.344s infinite;}
+.r49{animation:wiperow 6.0s steps(30) 1.372s infinite;}
+.r50{animation:wiperow 6.0s steps(30) 1.400s infinite;}
+.r51{animation:wiperow 6.0s steps(30) 1.428s infinite;}
+.r52{animation:wiperow 6.0s steps(30) 1.456s infinite;}
 </style>
-<defs>
-<clipPath id="clip0"><rect x="0" y="0.0" width="620" height="11"/></clipPath>
-<clipPath id="clip1"><rect x="0" y="11.0" width="620" height="11"/></clipPath>
-<clipPath id="clip2"><rect x="0" y="22.0" width="620" height="11"/></clipPath>
-<clipPath id="clip3"><rect x="0" y="33.0" width="620" height="11"/></clipPath>
-<clipPath id="clip4"><rect x="0" y="44.0" width="620" height="11"/></clipPath>
-<clipPath id="clip5"><rect x="0" y="55.0" width="620" height="11"/></clipPath>
-<clipPath id="clip6"><rect x="0" y="66.0" width="620" height="11"/></clipPath>
-<clipPath id="clip7"><rect x="0" y="77.0" width="620" height="11"/></clipPath>
-<clipPath id="clip8"><rect x="0" y="88.0" width="620" height="11"/></clipPath>
-<clipPath id="clip9"><rect x="0" y="99.0" width="620" height="11"/></clipPath>
-<clipPath id="clip10"><rect x="0" y="110.0" width="620" height="11"/></clipPath>
-<clipPath id="clip11"><rect x="0" y="121.0" width="620" height="11"/></clipPath>
-<clipPath id="clip12"><rect x="0" y="132.0" width="620" height="11"/></clipPath>
-<clipPath id="clip13"><rect x="0" y="143.0" width="620" height="11"/></clipPath>
-<clipPath id="clip14"><rect x="0" y="154.0" width="620" height="11"/></clipPath>
-<clipPath id="clip15"><rect x="0" y="165.0" width="620" height="11"/></clipPath>
-<clipPath id="clip16"><rect x="0" y="176.0" width="620" height="11"/></clipPath>
-<clipPath id="clip17"><rect x="0" y="187.0" width="620" height="11"/></clipPath>
-<clipPath id="clip18"><rect x="0" y="198.0" width="620" height="11"/></clipPath>
-<clipPath id="clip19"><rect x="0" y="209.0" width="620" height="11"/></clipPath>
-<clipPath id="clip20"><rect x="0" y="220.0" width="620" height="11"/></clipPath>
-<clipPath id="clip21"><rect x="0" y="231.0" width="620" height="11"/></clipPath>
-<clipPath id="clip22"><rect x="0" y="242.0" width="620" height="11"/></clipPath>
-<clipPath id="clip23"><rect x="0" y="253.0" width="620" height="11"/></clipPath>
-<clipPath id="clip24"><rect x="0" y="264.0" width="620" height="11"/></clipPath>
-<clipPath id="clip25"><rect x="0" y="275.0" width="620" height="11"/></clipPath>
-<clipPath id="clip26"><rect x="0" y="286.0" width="620" height="11"/></clipPath>
-<clipPath id="clip27"><rect x="0" y="297.0" width="620" height="11"/></clipPath>
-<clipPath id="clip28"><rect x="0" y="308.0" width="620" height="11"/></clipPath>
-<clipPath id="clip29"><rect x="0" y="319.0" width="620" height="11"/></clipPath>
-<clipPath id="clip30"><rect x="0" y="330.0" width="620" height="11"/></clipPath>
-<clipPath id="clip31"><rect x="0" y="341.0" width="620" height="11"/></clipPath>
-<clipPath id="clip32"><rect x="0" y="352.0" width="620" height="11"/></clipPath>
-<clipPath id="clip33"><rect x="0" y="363.0" width="620" height="11"/></clipPath>
-<clipPath id="clip34"><rect x="0" y="374.0" width="620" height="11"/></clipPath>
-<clipPath id="clip35"><rect x="0" y="385.0" width="620" height="11"/></clipPath>
-<clipPath id="clip36"><rect x="0" y="396.0" width="620" height="11"/></clipPath>
-<clipPath id="clip37"><rect x="0" y="407.0" width="620" height="11"/></clipPath>
-<clipPath id="clip38"><rect x="0" y="418.0" width="620" height="11"/></clipPath>
-<clipPath id="clip39"><rect x="0" y="429.0" width="620" height="11"/></clipPath>
-<clipPath id="clip40"><rect x="0" y="440.0" width="620" height="11"/></clipPath>
-<clipPath id="clip41"><rect x="0" y="451.0" width="620" height="11"/></clipPath>
-<clipPath id="clip42"><rect x="0" y="462.0" width="620" height="11"/></clipPath>
-<clipPath id="clip43"><rect x="0" y="473.0" width="620" height="11"/></clipPath>
-<clipPath id="clip44"><rect x="0" y="484.0" width="620" height="11"/></clipPath>
-<clipPath id="clip45"><rect x="0" y="495.0" width="620" height="11"/></clipPath>
-<clipPath id="clip46"><rect x="0" y="506.0" width="620" height="11"/></clipPath>
-<clipPath id="clip47"><rect x="0" y="517.0" width="620" height="11"/></clipPath>
-<clipPath id="clip48"><rect x="0" y="528.0" width="620" height="11"/></clipPath>
-<clipPath id="clip49"><rect x="0" y="539.0" width="620" height="11"/></clipPath>
-<clipPath id="clip50"><rect x="0" y="550.0" width="620" height="11"/></clipPath>
-<clipPath id="clip51"><rect x="0" y="561.0" width="620" height="11"/></clipPath>
-<clipPath id="clip52"><rect x="0" y="572.0" width="620" height="11"/></clipPath>
-</defs>
 <text class="row r0" x="0" y="9.0" xml:space="preserve">                                                                                                    </text>
 <text class="row r1" x="0" y="20.0" xml:space="preserve">                                              .----:.````..                                         </text>
 <text class="row r2" x="0" y="31.0" xml:space="preserve">                                             -*--*csssc##%%s*=-``.                                  </text>

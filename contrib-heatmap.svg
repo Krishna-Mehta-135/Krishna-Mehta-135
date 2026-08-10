@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="782" height="168" viewBox="0 0 782 168" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">
 <rect width="100%" height="100%" fill="#0d1117"/>
 <style>
-.box{opacity:0;animation:pop 0.35s ease-out forwards;}
-@keyframes pop{from{opacity:0;transform:translate(-4px,-4px);}to{opacity:1;transform:translate(0,0);}}
+.box{opacity:0;animation:pop 10.0s ease-in-out infinite;}
+@keyframes pop{0%{opacity:0;transform:translate(-4px,-4px);}4%{opacity:1;transform:translate(0,0);}90%{opacity:1;transform:translate(0,0);}100%{opacity:0;transform:translate(-4px,-4px);}}
 .b0{animation-delay:0.000s;transform-box:fill-box;}
 .b1{animation-delay:0.012s;transform-box:fill-box;}
 .b2{animation-delay:0.024s;transform-box:fill-box;}
