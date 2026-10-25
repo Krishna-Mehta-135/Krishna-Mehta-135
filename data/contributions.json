@@ -1,36 +1,8 @@
 {
   "username": "Krishna-Mehta-135",
-  "fetched_at": "2026-10-24T10:56:30.512357+00:00",
-  "total_contributions": 1368,
+  "fetched_at": "2026-10-25T11:23:26.422444+00:00",
+  "total_contributions": 1369,
   "days": [
-    {
-      "date": "2025-10-19",
-      "level": 1
-    },
-    {
-      "date": "2025-10-20",
-      "level": 0
-    },
-    {
-      "date": "2025-10-21",
-      "level": 0
-    },
-    {
-      "date": "2025-10-22",
-      "level": 0
-    },
-    {
-      "date": "2025-10-23",
-      "level": 0
-    },
-    {
-      "date": "2025-10-24",
-      "level": 0
-    },
-    {
-      "date": "2025-10-25",
-      "level": 0
-    },
     {
       "date": "2025-10-26",
       "level": 0
@@ -1485,16 +1457,20 @@
     },
     {
       "date": "2026-10-24",
+      "level": 1
+    },
+    {
+      "date": "2026-10-25",
       "level": 0
     }
   ],
   "stats": {
     "current_streak": 0,
-    "longest_streak": 75,
+    "longest_streak": 76,
     "active_days": 187,
     "level_counts": {
+      "0": 178,
       "1": 142,
-      "0": 184,
       "2": 27,
       "3": 10,
       "4": 8
